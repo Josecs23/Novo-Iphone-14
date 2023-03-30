@@ -1,0 +1,144 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .caixa-roxa {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #332d2d;
+    border-bottom: 1px solid;
+    gap: 100px;
+  }
+  li {
+    font-size: 15px;
+    font-weight: 400px;
+    color: #5f5656d5;
+    cursor: pointer;
+  
+  }
+  ul {
+    display: flex;
+    gap: 100px;
+  }
+  .logo {
+    height: 40px;
+    margin-left: 50px;
+  
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  .caixa-azul {
+    margin: 10px;
+  }
+  
+  .titulo-iphone {
+    font-size: 30px;
+  }
+  .segundo-titulo {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .paragrafo {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  .preco {
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .botao {
+    background: #3636db;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  button:active {
+    opacity: 0.6;
+  }  
+
+  .troca-cor {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer; 
+  }
+.branco{
+  background-color: #c1c1c1;
+}
+.azul{
+  background-color: #81a5c4;
+}
+.amarelo{
+  background-color: #f7da47;
+}
+.roxo{
+  background-color: #7D5B8C;
+}
+.vermelho{
+  background-color: #b50012;
+}
+
+.preto{
+  background-color: #272d33;
+}
+
+  .escolha-cor{
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  } 
+
+  .iphone{
+    width: 450px;
+    margin-top: 30px;
+    z-index: 99;
+  }
+
+  .circulo{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+   background-color:#81a5c4 ;
+  margin-left: 800px;
+	margin-top: 250px;
+  margin-bottom: 20px;
+	shape-outside: circle();
+	clip-path: circle();
+	float: left;
+	position:absolute;
+
+}
+
+
+    
+    
+
+   
+ 
+
+
